@@ -1,0 +1,86 @@
+<ImageComposition xsi:noNamespaceSchemaLocation="https://www.skraper.net/ImageComposition.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Information ShortName="arcade"
+               LongName="arcade"
+               Description="mod of the original Arcade Moon (zoomed)"
+               Author="xero" />
+  <Viewport Color="#00FFFFFF" Width="600" Height="400" />
+  <Drawings>
+    <Item IfSystem="IsInTheListOrAncestors:75" TestOnly="true">
+      <Children>
+        <!-- Projected marquee first -->
+        <Item Type ="Marquee">
+          <Display Mode="Distord" X="82" Y="28" X2="342" Y2="24" X3="352" Y3="97" X4="90" Y4="106" Antialiasing="High" />
+          <Fallback Type="ScreenMarqueeSmall">
+            <Fallback Type="LocalFile" LocalFilePath="marquee.png" />
+          </Fallback>
+        </Item>
+        <!-- Portrait -->
+        <Item Type="Screenshot" IfOrientation="IsPortrait" TestOnly="true">
+          <Fallback Type="ScreenshotTitle" TestOnly="true" />
+          <Children>
+            <!-- Projected screenshot -->
+            <Item Type ="Screenshot">
+              <Display Mode="Distord" X="79" Y="122" X2="219" Y2="161" X3="249" Y3="342" X4="106" Y4="362" Antialiasing="High" />
+              <Fallback Type="ScreenshotTitle">
+                <Fallback Type="LocalFile" LocalFilePath="static.png" />
+              </Fallback>
+            </Item>
+            <!-- Vertical cabinet once again to anti-alias the srceenshot edges -->
+            <Item Type="LocalFile" LocalFilePath="moonv.png">
+              <Display X="0%" Y="0%" Width="100%" Height="100%" Anchor="TopLeft" />
+            </Item>
+          </Children>
+        </Item>
+        <!-- Landscape -->
+        <Item Type="Screenshot" IfOrientation="IsLandscape" TestOnly="true">
+          <Fallback Type="ScreenshotTitle" TestOnly="true" />
+          <Children DrawIfNoParent="true">
+            <!-- Projected screenshot -->
+            <Item Type ="Screenshot">
+              <Display Mode="Distord" X="36" Y="176" X2="258" Y2="160" X3="283" Y3="337" X4="56" Y4="368" Antialiasing="None" />
+              <Fallback Type="ScreenshotTitle">
+                <Fallback Type="LocalFile" LocalFilePath="static.png" />
+              </Fallback>
+            </Item>
+            <!-- Horizontal cabinet once again to anti-alias the srceenshot edges -->
+            <Item Type="LocalFile" LocalFilePath="moon.png">
+              <Display X="0%" Y="0%" Width="100%" Height="100%" Anchor="TopLeft" />
+            </Item>
+          </Children>
+        </Item>
+        <!-- Wheel on right -->
+        <Item Type="Wheel">
+          <Display X="100%" Y="100%" Width="50%" Height="50%" Anchor="BottomRight" />
+        </Item>
+        <!-- System Wheel on top-right -->
+        <Item Type="SystemWheel">
+          <Display X="100%" Y="0%" Width="25%" Height="25%" Anchor="TopRight" />
+        </Item>
+      </Children>
+    </Item>
+  </Drawings>
+</ImageComposition>
+
+<!--
+
+Vertical:
+
+Marquee:
+x1,y1 = 82,28
+x2,y2 = 342,24
+x3,y3 = 352,97
+x4,y4 = 90,106
+
+ScreenH:
+x1,y1 = 36,176
+x2,y2 = 258,160
+x3,y3 = 283,337
+x4,y4 = 56,368
+
+ScreenV
+x1,y1 = 79,122
+x2,y2 = 219,161
+x3,y3 = 249,342
+x4,y4 = 106,362
+
+-->
