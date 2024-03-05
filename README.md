@@ -1,6 +1,9 @@
-# box art
+# video game box art
 
-video game emulator box art for arcade, portable, and home consoles. 4 image mix including wheel art (marquee or title logo), screenshot, 3d box art, and cartridge or console where available. currently for 640x480 devices w/ the 300px text offset.
+video game emulator box art collection for arcade, portable, and home consoles. the multi-image mix includes wheel art (marquee or title logo), screenshot, 3d box, and cartridge or console. the layouts adapts for portrait and landscape boxes. currently only 640x480 devices w/a 300px text offset are supported. 1x1 mixes are planned.
+
+> [!INFO]
+> the repo contains both fully rendered images and rom scraper configs for diy use
 
 ## previews
 
@@ -10,7 +13,7 @@ video game emulator box art for arcade, portable, and home consoles. 4 image mix
 <img src="https://github.com/xero/boxart/blob/previews/previews/snes-metroid.png?raw=true" width="346" height="260" align="left">
 <img src="https://github.com/xero/boxart/blob/previews/previews/sfc-alt-zelda.png?raw=true" width="346" height="260" align="left">
 <img src="https://github.com/xero/boxart/blob/previews/previews/snes-shadowr.png?raw=true" width="346" height="260" align="left">
-<img src="https://github.com/xero/boxart/blob/previews/previews/virtualboy-wario.png?raw=true" width="346" height="260">
+<img src="https://github.com/xero/boxart/blob/previews/previews/virtualboy-wario.png?raw=true" width="346" height="260" align="left">
 <img src="https://github.com/xero/boxart/blob/previews/previews/fami-attack.png?raw=true" width="346" height="260" align="left">
 <img src="https://github.com/xero/boxart/blob/previews/previews/famicom-castlevania3.png?raw=true" width="346" height="260" align="left">
 <img src="https://github.com/xero/boxart/blob/previews/previews/gameboy-kirby.png?raw=true" width="346" height="260" align="left">
@@ -29,9 +32,9 @@ video game emulator box art for arcade, portable, and home consoles. 4 image mix
 <img src="https://github.com/xero/boxart/blob/previews/previews/sega-mhockey.png?raw=true" width="346" height="260" align="left">
 <img src="https://github.com/xero/boxart/blob/previews/previews/sega-quack.png?raw=true" width="346" height="260" align="left">
 <img src="https://github.com/xero/boxart/blob/previews/previews/segacd-mk.png?raw=true" width="346" height="260" align="left">
-<img src="https://github.com/xero/boxart/blob/previews/previews/32x-prage.png?raw=true" width="346" height="260" align="left">
+<img src="https://github.com/xero/boxart/blob/previews/previews/32x-prage.png?raw=true" width="346" height="260">
 
-screenshots taken on the [rg35xx](https://amzn.to/3OEKSaj) handheld emulation console running for [garlic os](https://www.patreon.com/posts/garlicos-for-76561333) and my [super garlicboy theme](https://github.com/xero/superGarlicboy)
+screenshots taken on the [rg35xx](https://amzn.to/3OEKSaj) handheld emulation console running [garlic os](https://www.patreon.com/posts/garlicos-for-76561333) and my [super garlicboy theme](https://github.com/xero/superGarlicboy)
 
 ---
 
@@ -62,11 +65,11 @@ screenshots taken on the [rg35xx](https://amzn.to/3OEKSaj) handheld emulation co
 |SNES|Super Nintendo|:white_check_mark:|GoodSNES|
 |VB|Virtualboy|:white_check_mark:|NoIntro|
 
-## mixes
-i'm trying my best to create artwork for all systems with full romsets, but in the meantime you can scrape your own collections!
+## mixes / xml scraper config files
 
- per-system configuration files for [skraper](https://skraper.net) are located in the `_mixes` folder, including some alternative versions (e.g. SFC-alt.xml for stacked SNES layout).
+i'm trying my best to create artwork for all retro consoles with complete emulator romsets, but in the meantime/future you can scrape your own collections!
 
+per-system configuration files for [skraper](https://skraper.net), or other universal-xml-scraper compatible tools, are located in the `_mixes` folder, including some alternative versions (e.g. SFC-alt.xml for stacked SNES layout, and a full color arcade cabinet).
 
 ## credits
 
@@ -77,12 +80,16 @@ this project was created by [xero](https://github.com/xero)
 
 _but it's based on lots of other peoples amazing work!_
 
-all images were scraped from [screenscraper.fr](https://screenscraper.fr), a wonderful community project to archive and share this portion of retro game history. please donate (like i did).
+all images were scraped from [screenscraper.fr](https://screenscraper.fr), a wonderful community project to archive and share this portion of gaming history. please [donate](https://patreon.com/screenscraper) and contribute, like i do.
+
+_though this project is designed so you don't need to scrape your own so... :upside_down_face:_
+
+remixed arcade cabinet graphics originally by [moon](https://github.com/Universal-Rom-Tools/Universal-XML-Scraper/blob/master/Mix/Arcade%20(moon).zip), and released as freeware.
 
 ## license
 
-**CC0 1.0 Universal / Public Domain**
-
 ![kopimi logo](https://gist.githubusercontent.com/xero/cbcd5c38b695004c848b73e5c1c0c779/raw/6b32899b0af238b17383d7a878a69a076139e72d/kopimi-sm.png)
+
+**CC0 1.0 Universal / Public Domain**
 
 since all of this is made from community screenshots, i release mine in the spirit of kopimi as well!
