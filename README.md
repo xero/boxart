@@ -40,12 +40,12 @@ screenshots taken on the [rg35xx](https://amzn.to/3OEKSaj) handheld emulation co
 
 ## status
 
-|folder|system|complete|set|
-|------|------|--------|---|
-|APPS|system apps|:feelsgood:|Garlic OS|
-|ARCADE|arcade|:white_check_mark:|MAME 0.87|
-|ATARI2600|atari 2600|:white_check_mark:|NoIntro|
-|ATARIST|atari ST|:white_check_mark:|NoIntro|
+|Folder|System|Complete|RomSet|
+|:-----|:-----|:-------|:-----|
+|APPS|System Applications|:feelsgood:|Garlic OS|
+|ARCADE|Arcade|:white_check_mark:|MAME 0.87|
+|ATARI2600|Atari 2600|:white_check_mark:|NoIntro|
+|ATARIST|Atari ST|:white_check_mark:|NoIntro|
 |GB|Gameboy|:white_check_mark:|NoIntro|
 |GBA|Gameboy Advance|:white_large_square:|BestSet|
 |GBC|Gameboy Color|:white_check_mark:|NoIntro|
@@ -65,6 +65,9 @@ screenshots taken on the [rg35xx](https://amzn.to/3OEKSaj) handheld emulation co
 |SNES|Super Nintendo|:white_check_mark:|GoodSNES|
 |VB|Virtualboy|:white_check_mark:|NoIntro|
 
+> [!IMPORTANT]
+> PR's for updates & additional consoles are welcome!
+
 ## mixes / xml scraper config files
 
 i'm trying my best to create artwork for all retro consoles with complete emulator romsets, but in the meantime/future you can scrape your own collections!
@@ -78,11 +81,11 @@ this project was created by [xero](https://github.com/xero)
 * https://x-e.ro
 * https://xero.style
 
-_but it's based on lots of other peoples amazing work!_
+__but it's based on lots of other peoples amazing work!__
 
-all images were scraped from [screenscraper.fr](https://screenscraper.fr), a wonderful community project to archive and share this portion of gaming history. please [donate](https://patreon.com/screenscraper) and contribute, like i do.
+all images are from [screenscraper.fr](https://screenscraper.fr), a wonderful community project to archive and share this portion of gaming history. please [donate](https://patreon.com/screenscraper) and contribute, like i do.
 
-_though this project is designed so you don't need to scrape your own so... :upside_down_face:_
+_though this project is designed so you don't need to scrape your own so..._ :upside_down_face:
 
 remixed arcade cabinet graphics originally by [moon](https://github.com/Universal-Rom-Tools/Universal-XML-Scraper/blob/master/Mix/Arcade%20(moon).zip), and released as freeware.
 
