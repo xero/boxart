@@ -2,8 +2,8 @@
 
 video game emulator box art collection for arcade, portable, and home consoles. the multi-image mix includes wheel art (marquee or title logo), screenshot, 3d box, and cartridge or console. the layouts adapts for portrait and landscape boxes. currently only 640x480 devices w/a 300px text offset are supported. 1x1 mixes are planned.
 
-> [!INFO]
-> the repo contains both fully rendered images and rom scraper configs for diy use
+> [!TIP]
+> the repo contains both fully rendered images and rom scraper configs for diy use.
 
 ## previews
 
