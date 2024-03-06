@@ -64,7 +64,8 @@ screenshots taken on the [rg35xx](https://amzn.to/3OEKSaj) handheld emulation co
 |PORTS|PC Ports|:white_large_square:|Garlic OS|
 |PSX|Playstation 1|:white_large_square:|wip|
 |SEGACD|Sega CD|:white_check_mark:|Scene|
-|SNES|Super Nintendo|:white_check_mark:|GoodSNES|
+|SFC|Super Famicon (ALL)|:white_check_mark:|GoodSNES|
+|SNES|Super Nintendo (US)|:white_check_mark:|GoodSNES|
 |THIRTYTWOX|Sega 32x|:white_check_mark:|GoodGEN|
 |VB|Virtualboy|:white_check_mark:|NoIntro|
 
