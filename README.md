@@ -4,6 +4,7 @@ video game emulator box art collection for arcade, portable, and home consoles. 
 
 > [!TIP]
 > the repo contains both fully rendered images and rom scraper configs for diy use.
+> checkout the [releases page to download](https://github.com/xero/boxart/releases) archives of individual systems.
 
 ## previews
 
