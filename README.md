@@ -47,6 +47,7 @@ screenshots taken on the [rg35xx](https://amzn.to/3OEKSaj) handheld emulation co
 |ARCADE|Arcade|:white_check_mark:|MAME 0.87|
 |ATARI2600|Atari 2600|:white_check_mark:|NoIntro|
 |ATARIST|Atari ST|:white_check_mark:|NoIntro|
+|FDS|Famicom Disk System|:white_large_square:|personal collection|
 |GB|Gameboy|:white_check_mark:|NoIntro|
 |GBA|Gameboy Advance|:white_large_square:|BestSet|
 |GBC|Gameboy Color|:white_check_mark:|NoIntro|
